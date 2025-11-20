@@ -1,4 +1,3 @@
-
 import Banner from "../components/Banner/Banner";
 import MyCarousel from "../components/Carousel/Carousel";
 import ImageGrid from "../components/ImageGrid/ImageGrid";

@@ -1,4 +1,3 @@
-
 import BreadCrumb from "../components/BreadCrumb/BreadCrumb";
 import NewsContent from "../components/Content/NewsContent";
 

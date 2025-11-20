@@ -8,17 +8,17 @@ const Footer: React.FC = () => (
       <div className="footer-columns">
         <div className="footer-col">
           <h4>Explore News</h4>
-          <a href="#">Technology</a>
-          <a href="#">Business</a>
-          <a href="#">Science</a>
-          <a href="#">Health</a>
-          <a href="#">Entertainment</a>
-          <a href="#">Sports</a>
+          <a href="/technology">Technology</a>
+          <a href="/business">Business</a>
+          <a href="/science">Science</a>
+          <a href="/health">Health</a>
+          <a href="/entertainment">Entertainment</a>
+          <a href="/sports">Sports</a>
         </div>
         <div className="footer-col">
           <h4>Navigation</h4>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
         </div>
         <div className="footer-col">
           <h4>Locate Us</h4>
@@ -45,11 +45,11 @@ const Footer: React.FC = () => (
     </div>
     <div className="footer-horizontal">
       <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Use</a>
-      <a href="#">Sitemap</a>
-      <a href="#">FAQ</a>
-      <a href="#">Feedback</a>
-      <a href="#">Legislation</a>
+      <a href="/terms-of-use">Terms of Use</a>
+      <a href="/sitemap">Sitemap</a>
+      <a href="/faq">FAQ</a>
+      <a href="/feedback">Feedback</a>
+      <a href="/legislation">Legislation</a>
     </div>
     <div className="footer-copyright">
       <span>&copy; {new Date().getFullYear()} NewsFlush. All rights reserved.</span>
