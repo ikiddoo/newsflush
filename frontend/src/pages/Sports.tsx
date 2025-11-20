@@ -1,9 +1,15 @@
-import React from "react";
+
+import BreadCrumb from "../components/BreadCrumb/BreadCrumb";
+import NewsContent from "../components/Content/NewsContent";
+
 
 const Sports: React.FC = () => (
   <div>
-    <h1>Sports</h1>
-    <p>Latest sports news and updates.</p>
+    <BreadCrumb items={[{ label: "Home", path: "/" }, { label: "Sports", path: "/sports" }]} />
+    <NewsContent
+      title="Sports"
+      description="Latest sports news and updates."
+    />
   </div>
 );
 

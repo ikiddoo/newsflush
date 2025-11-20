@@ -8,7 +8,8 @@ import FAQ from "./pages/FAQ";
 import Sports from "./pages/Sports";
 import Health from "./pages/Health";
 import Entertainment from "./pages/Entertainment";
-// import Business from "./pages/";
+import Business from "./pages/Business";
+import Technology from "./pages/Technology";
 import Science from "./pages/Science";
 import "./App.css";
 
@@ -23,7 +24,8 @@ function App() {
             <Route path="sports" element={<Sports />} />
             <Route path="health" element={<Health />} />
             <Route path="entertainment" element={<Entertainment />} />
-            {/* <Route path="business" element={<Business />} /> */}
+            <Route path="business" element={<Business />} />
+            <Route path="technology" element={<Technology />} />
             <Route path="science" element={<Science />} />
           </Route>
       </Routes>

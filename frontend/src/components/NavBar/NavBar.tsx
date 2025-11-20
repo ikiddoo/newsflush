@@ -20,12 +20,12 @@ const NavBar: React.FC = () => {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">About</Nav.Link>
             <NavDropdown title="News" id="navbarDropdown">
-              <NavDropdown.Item href="#action">Sports</NavDropdown.Item>
-              <NavDropdown.Item href="#another">Technology</NavDropdown.Item>
-              <NavDropdown.Item href="#another">Health</NavDropdown.Item>
-              <NavDropdown.Item href="#another">Entertainment</NavDropdown.Item>
-              <NavDropdown.Item href="#another">Business</NavDropdown.Item>
-              <NavDropdown.Item href="#another">Science</NavDropdown.Item>
+              <NavDropdown.Item href="/sports">Sports</NavDropdown.Item>
+              <NavDropdown.Item href="/technology">Technology</NavDropdown.Item>
+              <NavDropdown.Item href="/health">Health</NavDropdown.Item>
+              <NavDropdown.Item href="/entertainment">Entertainment</NavDropdown.Item>
+              <NavDropdown.Item href="/business">Business</NavDropdown.Item>
+              <NavDropdown.Item href="/science">Science</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#link">Contact</Nav.Link>
           </Nav>

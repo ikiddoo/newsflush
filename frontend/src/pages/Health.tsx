@@ -1,9 +1,15 @@
-import React from "react";
+
+import BreadCrumb from "../components/BreadCrumb/BreadCrumb";
+import NewsContent from "../components/Content/NewsContent";
+
 
 const Health: React.FC = () => (
   <div>
-    <h1>Health</h1>
-    <p>Health news and wellness tips.</p>
+    <BreadCrumb items={[{ label: "Home", path: "/" }, { label: "Health", path: "/health" }]} />
+    <NewsContent
+      title="Health"
+      description="Health news and wellness tips."
+    />
   </div>
 );
 
