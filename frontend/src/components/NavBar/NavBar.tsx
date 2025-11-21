@@ -29,15 +29,27 @@ const NavBar: React.FC = () => {
             </NavDropdown>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
-          <Form className="d-flex">
-            <FormControl
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-dark">Search</Button>
-          </Form>
+          <div className="d-flex align-items-center justify-content-center" style={{ height: '100%' }}>
+            <Form className="d-flex me-3">
+              <FormControl
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-dark">Search</Button>
+            </Form>
+            <Nav className="" style={{ display: 'flex', alignItems: 'center' }}>
+              <Nav.Link href="/login" className="me-2" style={{ fontSize: '0.95rem' }}>Login</Nav.Link>
+              <span style={{
+                display: 'inline-block',
+                height: '1.2em',
+                borderLeft: '2px solid #333',
+                margin: '0 8px',
+              }}></span>
+              <Nav.Link href="/register" className="ms-2" style={{ fontSize: '0.95rem' }}>Register</Nav.Link>
+            </Nav>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
