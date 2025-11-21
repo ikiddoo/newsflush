@@ -27,7 +27,7 @@ const NavBar: React.FC = () => {
               <NavDropdown.Item href="/business">Business</NavDropdown.Item>
               <NavDropdown.Item href="/science">Science</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <FormControl

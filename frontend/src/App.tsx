@@ -11,6 +11,7 @@ import Entertainment from "./pages/Entertainment";
 import Business from "./pages/Business";
 import Technology from "./pages/Technology";
 import Science from "./pages/Science";
+import Contact from "./pages/Contact/Contact";
 import "./App.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="business" element={<Business />} />
             <Route path="technology" element={<Technology />} />
             <Route path="science" element={<Science />} />
+            <Route path="contact" element={<Contact />} />
           </Route>
       </Routes>
     </BrowserRouter>
