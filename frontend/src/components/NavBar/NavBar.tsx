@@ -7,7 +7,7 @@ const NavBar: React.FC = () => {
   return (
     <Navbar bg="light" expand="lg" className="mb-3">
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img
             src={logo}
             alt="NewsFlush Logo"
