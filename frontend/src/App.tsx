@@ -12,6 +12,7 @@ import Business from "./pages/Business";
 import Technology from "./pages/Technology";
 import Science from "./pages/Science";
 import Contact from "./pages/Contact/Contact";
+import Register from "./pages/Register/Register";
 import "./App.css";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="technology" element={<Technology />} />
             <Route path="science" element={<Science />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="register" element={<Register />} />
           </Route>
       </Routes>
     </BrowserRouter>
