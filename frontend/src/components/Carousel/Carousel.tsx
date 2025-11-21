@@ -12,8 +12,8 @@ const MyCarousel: React.FC = () => (
         alt="Marina Bay"
       />
       <Carousel.Caption>
-        <h3>Marina Bay</h3>
-        <p>Singapore's iconic waterfront.</p>
+        <h3>Only the Latest News</h3>
+        <p>Stay up to date with current events.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -23,8 +23,8 @@ const MyCarousel: React.FC = () => (
         alt="Chinatown Singapore"
       />
       <Carousel.Caption>
-        <h3>Chinatown</h3>
-        <p>Vibrant streets and culture.</p>
+        <h3>One stop for all your news</h3>
+        <p>Your comprehensive news source.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -34,8 +34,8 @@ const MyCarousel: React.FC = () => (
         alt="City Skyline"
       />
       <Carousel.Caption>
-        <h3>City Skyline</h3>
-        <p>Modern architecture and city lights.</p>
+        <h3>News on the US market</h3>
+        <p>Stay informed with the latest updates.</p>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
